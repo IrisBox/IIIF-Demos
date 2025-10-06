@@ -1,0 +1,15 @@
+{
+  "id" : "https://IrisBox.github.io/IIIF-Demos/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in IrisBox/IIIF-Demos project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://IrisBox.github.io/IIIF-Demos/manifests/IIIF-Examples.json",
+    "label" : {
+      "en" : [ "IIIF Examples" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
