@@ -1,0 +1,396 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://IrisBox.github.io/IIIF-Demos/manifests/IIIFExamples.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "IIIF Examples" ]
+  },
+  "summary" : {
+    "en" : [ "These images demonstrate some of the things you can do with IIIF." ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/kxqki92al1-mgfgz24y/canvas/0fy36pi9e0kn-mgfh09gn",
+    "type" : "Canvas",
+    "height" : 2400,
+    "width" : 2400,
+    "label" : {
+      "en" : [ "Access" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Image-API/full/300,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 300,
+      "width" : 300
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/kxqki92al1-mgfgz24y/canvas/0fy36pi9e0kn-mgfh09gn/annotation-page/3n2ypy3u2jl-mgfh09gn",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/kxqki92al1-mgfgz24y/annotation/c3e0q7q6vqb-mgfh09gn",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/kxqki92al1-mgfgz24y/canvas/0fy36pi9e0kn-mgfh09gn",
+        "body" : {
+          "id" : "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Image-API/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2400,
+          "width" : 2400,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 75,
+              "height" : 75
+            }, {
+              "width" : 150,
+              "height" : 150
+            }, {
+              "width" : 300,
+              "height" : 300
+            }, {
+              "width" : 600,
+              "height" : 600
+            }, {
+              "width" : 1200,
+              "height" : 1200
+            }, {
+              "width" : 2400,
+              "height" : 2400
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2400,
+            "@id" : "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Image-API",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2400
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/kxqki92al1-mgfgz24y/canvas/ajmt9of6jhh-mgfh0q19",
+    "type" : "Canvas",
+    "height" : 1302,
+    "width" : 2550,
+    "label" : {
+      "en" : [ "Compare" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Mirador-Compare/full/319,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 163,
+      "width" : 319
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/kxqki92al1-mgfgz24y/canvas/ajmt9of6jhh-mgfh0q19/annotation-page/kxeutwbr3we-mgfh0q19",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/kxqki92al1-mgfgz24y/annotation/56soj450i44-mgfh0q18",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/kxqki92al1-mgfgz24y/canvas/ajmt9of6jhh-mgfh0q19",
+        "body" : {
+          "id" : "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Mirador-Compare/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1302,
+          "width" : 2550,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 41
+            }, {
+              "width" : 160,
+              "height" : 82
+            }, {
+              "width" : 319,
+              "height" : 163
+            }, {
+              "width" : 638,
+              "height" : 326
+            }, {
+              "width" : 1275,
+              "height" : 651
+            }, {
+              "width" : 2550,
+              "height" : 1302
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2550,
+            "@id" : "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Mirador-Compare",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1302
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/kxqki92al1-mgfgz24y/canvas/520fc7cmjxl-mgfh1fnm",
+    "type" : "Canvas",
+    "height" : 1203,
+    "width" : 2551,
+    "label" : {
+      "en" : [ "Annotate" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Annotate/full/319,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 151,
+      "width" : 319
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/kxqki92al1-mgfgz24y/canvas/520fc7cmjxl-mgfh1fnm/annotation-page/5lyfad1zglr-mgfh1fnm",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/kxqki92al1-mgfgz24y/annotation/l2pv6lefu0d-mgfh1fnl",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/kxqki92al1-mgfgz24y/canvas/520fc7cmjxl-mgfh1fnm",
+        "body" : {
+          "id" : "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Annotate/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1203,
+          "width" : 2551,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 38
+            }, {
+              "width" : 160,
+              "height" : 76
+            }, {
+              "width" : 319,
+              "height" : 151
+            }, {
+              "width" : 638,
+              "height" : 301
+            }, {
+              "width" : 1276,
+              "height" : 602
+            }, {
+              "width" : 2551,
+              "height" : 1203
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2551,
+            "@id" : "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Annotate",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1203
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/kxqki92al1-mgfgz24y/canvas/vl7jb1g2r8-mgfh1vpd",
+    "type" : "Canvas",
+    "height" : 1260,
+    "width" : 2554,
+    "label" : {
+      "en" : [ "Georeference" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Allmaps-georeferencing/full/320,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 158,
+      "width" : 320
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/kxqki92al1-mgfgz24y/canvas/vl7jb1g2r8-mgfh1vpd/annotation-page/tg3my5h8l6-mgfh1vpd",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/kxqki92al1-mgfgz24y/annotation/tge1urdts8-mgfh1vpc",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/kxqki92al1-mgfgz24y/canvas/vl7jb1g2r8-mgfh1vpd",
+        "body" : {
+          "id" : "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Allmaps-georeferencing/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1260,
+          "width" : 2554,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 40
+            }, {
+              "width" : 160,
+              "height" : 79
+            }, {
+              "width" : 320,
+              "height" : 158
+            }, {
+              "width" : 639,
+              "height" : 315
+            }, {
+              "width" : 1277,
+              "height" : 630
+            }, {
+              "width" : 2554,
+              "height" : 1260
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2554,
+            "@id" : "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Allmaps-georeferencing",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1260
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/kxqki92al1-mgfgz24y/canvas/7hulrbx89j-mgfh2l69",
+    "type" : "Canvas",
+    "height" : 1800,
+    "width" : 2880,
+    "label" : {
+      "en" : [ "Virtual Environments" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://IrisBox.github.io/IIIF-Demos/images/Anaverse-00/full/360,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 225,
+      "width" : 360
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/kxqki92al1-mgfgz24y/canvas/7hulrbx89j-mgfh2l69/annotation-page/ypdfluhkmrn-mgfh2l69",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/kxqki92al1-mgfgz24y/annotation/dfub4alyeo-mgfh2l69",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/kxqki92al1-mgfgz24y/canvas/7hulrbx89j-mgfh2l69",
+        "body" : {
+          "id" : "https://IrisBox.github.io/IIIF-Demos/images/Anaverse-00/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1800,
+          "width" : 2880,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 90,
+              "height" : 57
+            }, {
+              "width" : 180,
+              "height" : 113
+            }, {
+              "width" : 360,
+              "height" : 225
+            }, {
+              "width" : 720,
+              "height" : 450
+            }, {
+              "width" : 1440,
+              "height" : 900
+            }, {
+              "width" : 2880,
+              "height" : 1800
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2880,
+            "@id" : "https://IrisBox.github.io/IIIF-Demos/images/Anaverse-00",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1800
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/kxqki92al1-mgfgz24y/canvas/4vxcy9hoehj-mgfh32ya",
+    "type" : "Canvas",
+    "height" : 6000,
+    "width" : 6000,
+    "label" : {
+      "en" : [ "Get Creative" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://IrisBox.github.io/IIIF-Demos/images/EDC-Edinburgh-01/full/375,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 375,
+      "width" : 375
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/kxqki92al1-mgfgz24y/canvas/4vxcy9hoehj-mgfh32ya/annotation-page/r4xc0j7uih9-mgfh32ya",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/kxqki92al1-mgfgz24y/annotation/z3b44p2w33j-mgfh32ya",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/kxqki92al1-mgfgz24y/canvas/4vxcy9hoehj-mgfh32ya",
+        "body" : {
+          "id" : "https://IrisBox.github.io/IIIF-Demos/images/EDC-Edinburgh-01/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 6000,
+          "width" : 6000,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 188,
+              "height" : 188
+            }, {
+              "width" : 375,
+              "height" : 375
+            }, {
+              "width" : 750,
+              "height" : 750
+            }, {
+              "width" : 1500,
+              "height" : 1500
+            }, {
+              "width" : 3000,
+              "height" : 3000
+            }, {
+              "width" : 6000,
+              "height" : 6000
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 6000,
+            "@id" : "https://IrisBox.github.io/IIIF-Demos/images/EDC-Edinburgh-01",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 6000
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
