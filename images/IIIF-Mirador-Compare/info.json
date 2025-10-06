@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 80,
+    "height" : 41
+  }, {
+    "width" : 160,
+    "height" : 82
+  }, {
+    "width" : 319,
+    "height" : 163
+  }, {
+    "width" : 638,
+    "height" : 326
+  }, {
+    "width" : 1275,
+    "height" : 651
+  }, {
+    "width" : 2550,
+    "height" : 1302
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 2550,
+  "@id" : "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Mirador-Compare",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1302
+}
