@@ -9,6 +9,87 @@
     },
     "items": [
         {
+            "id": "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Image-API/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "IIIF-Image-API"
+                ]
+            },
+            "height": 2400,
+            "width": 2400,
+            "items": [
+                {
+                    "id": "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Image-API/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Image-API/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Image-API/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 75,
+                                                "height": 75
+                                            },
+                                            {
+                                                "width": 150,
+                                                "height": 150
+                                            },
+                                            {
+                                                "width": 300,
+                                                "height": 300
+                                            },
+                                            {
+                                                "width": 600,
+                                                "height": 600
+                                            },
+                                            {
+                                                "width": 1200,
+                                                "height": 1200
+                                            },
+                                            {
+                                                "width": 2400,
+                                                "height": 2400
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 2400,
+                                        "@id": "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Image-API",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 2400,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Image-API/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://IrisBox.github.io/IIIF-Demos/images/Anaverse-00/canvas/",
             "type": "Canvas",
             "label": {
