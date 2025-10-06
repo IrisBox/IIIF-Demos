@@ -333,6 +333,87 @@
             ]
         },
         {
+            "id": "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Annotate/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "IIIF-Annotate"
+                ]
+            },
+            "height": 1203,
+            "width": 2551,
+            "items": [
+                {
+                    "id": "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Annotate/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Annotate/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Annotate/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 80,
+                                                "height": 38
+                                            },
+                                            {
+                                                "width": 160,
+                                                "height": 76
+                                            },
+                                            {
+                                                "width": 319,
+                                                "height": 151
+                                            },
+                                            {
+                                                "width": 638,
+                                                "height": 301
+                                            },
+                                            {
+                                                "width": 1276,
+                                                "height": 602
+                                            },
+                                            {
+                                                "width": 2551,
+                                                "height": 1203
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 2551,
+                                        "@id": "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Annotate",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1203,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://IrisBox.github.io/IIIF-Demos/images/IIIF-Annotate/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://IrisBox.github.io/IIIF-Demos/images/EDC-Edinburgh-01/canvas/",
             "type": "Canvas",
             "label": {
