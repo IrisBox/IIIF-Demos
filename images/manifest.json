@@ -7,5 +7,87 @@
             "All images loaded in IrisBox/IIIF-Demos project"
         ]
     },
-    "items": []
+    "items": [
+        {
+            "id": "https://IrisBox.github.io/IIIF-Demos/images/EDC-Edinburgh-01/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "EDC-Edinburgh-01"
+                ]
+            },
+            "height": 6000,
+            "width": 6000,
+            "items": [
+                {
+                    "id": "https://IrisBox.github.io/IIIF-Demos/images/EDC-Edinburgh-01/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://IrisBox.github.io/IIIF-Demos/images/EDC-Edinburgh-01/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://IrisBox.github.io/IIIF-Demos/images/EDC-Edinburgh-01/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 188,
+                                                "height": 188
+                                            },
+                                            {
+                                                "width": 375,
+                                                "height": 375
+                                            },
+                                            {
+                                                "width": 750,
+                                                "height": 750
+                                            },
+                                            {
+                                                "width": 1500,
+                                                "height": 1500
+                                            },
+                                            {
+                                                "width": 3000,
+                                                "height": 3000
+                                            },
+                                            {
+                                                "width": 6000,
+                                                "height": 6000
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 6000,
+                                        "@id": "https://IrisBox.github.io/IIIF-Demos/images/EDC-Edinburgh-01",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 6000,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://IrisBox.github.io/IIIF-Demos/images/EDC-Edinburgh-01/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
