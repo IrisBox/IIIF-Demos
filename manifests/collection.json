@@ -11,5 +11,11 @@
       "en" : [ "IIIF Examples" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://IrisBox.github.io/IIIF-Demos/manifests/IIIFExamples.json",
+    "label" : {
+      "en" : [ "IIIF Examples" ]
+    },
+    "type" : "Manifest"
   } ]
 }
